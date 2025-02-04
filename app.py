@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pickle
 
-model = pickle.load(open("placement_model.pkl","rb"))
+model = pickle.load(open("placement_model.pkl","rb")
 
 st.set_page_config(page_title="Student Placement Predictor")
 
